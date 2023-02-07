@@ -1,0 +1,38 @@
+img {
+    width: 350px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.timer {
+    margin-top: -250px;
+    font-size: 100px;
+}
+
+.secaobtn {
+    margin-top: 150px;
+    
+    
+}
+
+.botao {
+    background-color: #125154;
+    color: #ecc851;
+    margin: 0 10px;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.botao:hover {
+    opacity: 0.9;
+    transition: all 0.5;
+}
